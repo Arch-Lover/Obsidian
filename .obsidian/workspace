@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/tar.md",
+            "file": "Linux/Command/LVM.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/tar.md",
+                "file": "Linux/Command/LVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,12 @@
   },
   "active": "33d8870e27b8c3bc",
   "lastOpenFiles": [
+    "Linux/Command/LVM.md",
     "Linux/Command/tar.md",
     "Linux/Command/rsync.md",
-    "Linux/Command/LVM.md",
+    "images/2021-10-09_12-25 1.png",
+    "2021-10-09_12-25 1.png.md",
+    "2021-10-09_12-25 1.png",
     "Linux/Command.md",
     "Untitled.md",
     "README.md"
