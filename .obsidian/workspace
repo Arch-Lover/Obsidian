@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "33d8870e27b8c3bc",
+        "id": "4ac65010f1386502",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Markdown Guide/markdown-cheat-sheet.md",
-            "mode": "preview",
+            "file": "Linux/Command/vim/Essential Navigation Commands.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "chec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 307
   },
   "right": {
     "id": "cffba4702356a4a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown Guide/markdown-cheat-sheet.md",
+                "file": "Linux/Command/vim/Essential Navigation Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "33d8870e27b8c3bc",
+  "active": "4ac65010f1386502",
   "lastOpenFiles": [
+    "Linux/Command/vim/Essential Navigation Commands.md",
+    "Linux/Command/LVM.md",
+    "Linux/Command/rsync.md",
+    "Linux/Command/vim.md",
     "Markdown Guide/markdown-cheat-sheet.md",
     "Markdown Guide/Basic Syntax.md",
     "Markdown Guide/Markdown_Basics.md",
     "goole.com.md",
     "Markdown Guide/Cheat Sheet.md",
-    "Linux/Command/rsync.md",
-    "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md",
-    "Linux/Command/7z.md",
-    "Linux/Command/ab.md",
-    "Linux/Command/ffmpeg.md"
+    "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md"
   ]
 }
