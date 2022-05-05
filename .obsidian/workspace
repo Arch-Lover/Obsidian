@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/vim/Essential Navigation Commands.md",
+            "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/vim/Essential Navigation Commands.md",
+                "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "4ac65010f1386502",
   "lastOpenFiles": [
+    "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
     "Linux/Command/vim/Essential Navigation Commands.md",
     "Linux/Command/LVM.md",
     "Linux/Command/rsync.md",
@@ -97,7 +98,6 @@
     "Markdown Guide/Basic Syntax.md",
     "Markdown Guide/Markdown_Basics.md",
     "goole.com.md",
-    "Markdown Guide/Cheat Sheet.md",
-    "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md"
+    "Markdown Guide/Cheat Sheet.md"
   ]
 }
