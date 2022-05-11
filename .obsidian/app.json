@@ -2,7 +2,7 @@
   "legacyEditor": false,
   "livePreview": true,
   "promptDelete": false,
-  "fileSortOrder": "byCreatedTimeReverse",
+  "fileSortOrder": "byCreatedTime",
   "rightToLeft": false,
   "communityThemeSortOrder": "download",
   "spellcheck": true

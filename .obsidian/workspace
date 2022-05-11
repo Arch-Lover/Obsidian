@@ -4,16 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4ac65010f1386502",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
-            "mode": "source",
-            "source": false
+        "id": "55f84568069fca34",
+        "type": "split",
+        "children": [
+          {
+            "id": "4ac65010f1386502",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7acc08d9ab3ffb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -40,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chec",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307
+    "width": 194
   },
   "right": {
     "id": "cffba4702356a4a0",
@@ -69,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
+                "file": "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +108,15 @@
   },
   "active": "4ac65010f1386502",
   "lastOpenFiles": [
-    "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
+    "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
+    "Markdown Guide/Basic Syntax.md",
+    "Linux/Bash Tutorial/02-Bash Script Structure Part 2 Professional Components.md",
+    "Linux/Bash Tutorial/01-Bash Script Structure Part 1 Core Components.md",
+    "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md",
     "Linux/Command/vim/Essential Navigation Commands.md",
+    "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
     "Linux/Command/LVM.md",
     "Linux/Command/rsync.md",
-    "Linux/Command/vim.md",
-    "Markdown Guide/markdown-cheat-sheet.md",
-    "Markdown Guide/Basic Syntax.md",
-    "Markdown Guide/Markdown_Basics.md",
-    "goole.com.md",
-    "Markdown Guide/Cheat Sheet.md"
+    "Linux/Command/vim.md"
   ]
 }
