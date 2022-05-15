@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
-            "mode": "preview",
+            "file": "Linux/Bash Tutorial/05-User defined Variables and Parameter expansion.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
+                "file": "Linux/Bash Tutorial/05-User defined Variables and Parameter expansion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +105,15 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
-    "Linux/Bash Tutorial/04-Adding scripts to your PATH.md",
-    "chmod-calculator.com.md",
+    "Linux/Bash Tutorial/05-User defined Variables and Parameter expansion.md",
     "Linux/Bash Tutorial/01-Bash Script Structure Part 1 Core Components.md",
+    "Linux/Bash Tutorial/04-Adding scripts to your PATH.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
+    "chmod-calculator.com.md",
     "Linux/Bash Tutorial/02-Bash Script Structure Part 2 Professional Components.md",
     "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
     "Markdown Guide/Basic Syntax.md",
     "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md",
-    "Linux/Command/vim/Essential Navigation Commands.md",
-    "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md"
+    "Linux/Command/vim/Essential Navigation Commands.md"
   ]
 }
