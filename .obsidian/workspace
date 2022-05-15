@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -78,6 +78,22 @@
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "aac3e7a086eedf01",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "80685a9759765b28",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
