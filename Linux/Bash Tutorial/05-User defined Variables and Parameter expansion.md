@@ -2,7 +2,7 @@ Three types of shell parameters:
 
 - Variables
 - Positional parameters
-- Speccial Parameters
+- Special Parameters
 
 
 ```bash

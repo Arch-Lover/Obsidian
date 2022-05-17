@@ -14,3 +14,11 @@ Comment in bash scripting
 # chmod +x ./our_fisrt_script
 # ./our_fisrt_script
 ```
+
+Capitalises the first letter of the parameter
+```bash
+[toor@pve1box1 Git]$ echo ${USER}  
+toor  
+[toor@pve1box1 Git]$ echo ${USER^}  
+Toor
+```
