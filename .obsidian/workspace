@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Bash Tutorial/06-Command Substitution.md",
+            "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Bash Tutorial/06-Command Substitution.md",
+                "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +105,8 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
+    "Linux/Command/vim/Essential Navigation Commands.md",
     "Linux/Bash Tutorial/06-Command Substitution.md",
     "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md",
     "README.md",
@@ -112,8 +114,6 @@
     "Linux/Bash Tutorial/04-Adding scripts to your PATH.md",
     "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
     "Linux/Bash Tutorial/02-Bash Script Structure Part 2 Professional Components.md",
-    "Linux/Bash Tutorial/01-Bash Script Structure Part 1 Core Components.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
-    "chmod-calculator.com.md"
+    "Linux/Bash Tutorial/01-Bash Script Structure Part 1 Core Components.md"
   ]
 }
