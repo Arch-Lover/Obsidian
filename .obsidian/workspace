@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/vim/Essential Navigation Commands-2.md",
-            "mode": "source",
+            "file": "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/vim/Essential Navigation Commands-2.md",
+                "file": "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +106,7 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
     "Linux/Command/vim/Essential Navigation Commands-2.md",
     "Linux/Command/vim/Essential Navigation Commands-1.md",
     "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
@@ -114,7 +115,6 @@
     "README.md",
     "Linux/Bash Tutorial/05-User defined Variables and Parameter expansion.md",
     "Linux/Bash Tutorial/04-Adding scripts to your PATH.md",
-    "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
-    "Linux/Bash Tutorial/02-Bash Script Structure Part 2 Professional Components.md"
+    "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md"
   ]
 }

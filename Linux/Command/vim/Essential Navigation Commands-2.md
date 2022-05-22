@@ -7,9 +7,13 @@ d + $ --> cut the text from current cursor potion to rest of the file --> p -- p
 0 or zero --> go to the first of the current line
 
 y + w --> copy a word --> p -- paste 
+y + 2 + w --> copy two words 
 
 y + $ --> copy the text from current cursor potion to rest of the file --> p -- paste after the cursor
 
+y + y --> copy a line 
+3 + y + y --> copy three lines
 
-
+u --> undo 
+ctrl + r --> redo
 
