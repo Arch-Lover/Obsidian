@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
-            "mode": "preview",
+            "file": "Linux/Command/vim/Essential Navigation Commands-2.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225
+    "width": 413
   },
   "right": {
     "id": "cffba4702356a4a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
+                "file": "Linux/Command/vim/Essential Navigation Commands-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -105,15 +106,15 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "Linux/Command/vim/Essential Navigation Commands-2.md",
+    "Linux/Command/vim/Essential Navigation Commands-1.md",
     "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
-    "Linux/Command/vim/Essential Navigation Commands.md",
     "Linux/Bash Tutorial/06-Command Substitution.md",
     "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md",
     "README.md",
     "Linux/Bash Tutorial/05-User defined Variables and Parameter expansion.md",
     "Linux/Bash Tutorial/04-Adding scripts to your PATH.md",
     "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md",
-    "Linux/Bash Tutorial/02-Bash Script Structure Part 2 Professional Components.md",
-    "Linux/Bash Tutorial/01-Bash Script Structure Part 1 Core Components.md"
+    "Linux/Bash Tutorial/02-Bash Script Structure Part 2 Professional Components.md"
   ]
 }
