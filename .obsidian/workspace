@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
+            "file": "Linux/Command/vim/scp.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
+                "file": "Linux/Command/vim/scp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +106,8 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "Linux/Command/vim/scp.md",
+    "Linux/Command/tar.md",
     "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
     "Linux/Command/vim/Essential Navigation Commands-1.md",
     "Linux/Command/vim/Essential Navigation Commands-2.md",
@@ -113,8 +115,6 @@
     "Linux/Bash Tutorial/06-Command Substitution.md",
     "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md",
     "README.md",
-    "Linux/Bash Tutorial/05-User defined Variables and Parameter expansion.md",
-    "Linux/Bash Tutorial/04-Adding scripts to your PATH.md",
-    "Linux/Bash Tutorial/03-Setting up Secure Script Permissions.md"
+    "Linux/Bash Tutorial/05-User defined Variables and Parameter expansion.md"
   ]
 }
