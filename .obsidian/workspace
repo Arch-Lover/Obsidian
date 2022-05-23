@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/vim/scp.md",
+            "file": "Linux/Command/scp.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/vim/scp.md",
+                "file": "Linux/Command/scp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
-    "Linux/Command/vim/scp.md",
+    "Linux/Command/scp.md",
     "Linux/Command/tar.md",
     "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
     "Linux/Command/vim/Essential Navigation Commands-1.md",
