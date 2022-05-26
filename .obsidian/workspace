@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Get started/Part 1- Getting started.md",
-            "mode": "preview",
+            "file": "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Get started/Part 1- Getting started.md",
+                "file": "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
+    "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
+    "Linux/Command/vim/Essential Navigation Commands-2.md",
+    "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
     "Docker/Get started/Part 1- Getting started.md",
     "Linux/Command/scp.md",
     "Linux/Command/tar.md",
-    "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
     "Linux/Command/vim/Essential Navigation Commands-1.md",
-    "Linux/Command/vim/Essential Navigation Commands-2.md",
-    "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",
     "Linux/Bash Tutorial/06-Command Substitution.md",
-    "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md",
-    "README.md"
+    "Network/Mikrotik/issues/FIX - Mikrotik Winbox - ERROR RoMON Agent not found.md"
   ]
 }
