@@ -32,7 +32,10 @@
 
 `g + ~ + $`  or `g + ~ + ~` Make a line uppercase
 
+` Shift + j ` --> combine two line 
 
+`g + Shift + j ` --> combine two line without adding additional space
 
+` 3 + Shift + j ` --> join 3 line to each other
 
 
