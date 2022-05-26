@@ -25,3 +25,14 @@
 ` Shift + c ` --> delete from cursor potion to end of end line and switching insert mode
 
 `c + c` --> delete a line and switching inset mode
+
+`~` --> make lowercase to uppercase 
+
+` g + ~ + 3 + w ` --> Make 3 words uppercase
+
+`g + ~ + $`  or `g + ~ + ~` Make a line uppercase
+
+
+
+
+
