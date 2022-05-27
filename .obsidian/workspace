@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
+            "file": "Linux/Command/vim/Search, Find, and Replace.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
+                "file": "Linux/Command/vim/Search, Find, and Replace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,8 +106,8 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
-    "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
     "Linux/Command/vim/Search, Find, and Replace.md",
+    "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
     "Linux/Command/vim/Essential Navigation Commands-2.md",
     "Linux/Command/vim/Exercise 02 Essential Navigation Commands - Walkthrough.md",
     "Linux/Command/vim/Deleting Text and &quot;Thinking in Vim&quot;.md",

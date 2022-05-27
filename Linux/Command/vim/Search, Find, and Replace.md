@@ -1,0 +1,1 @@
+`/searh some words` → search word → `n` → switch to next fond word `--` `Shift + n ` switch to next fond word 
