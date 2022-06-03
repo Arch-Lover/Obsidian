@@ -28,5 +28,24 @@ docker rm -f pedantic_sanderson
 ```
 `--force    -f  -- Force removal`
 
+---
+`Dockerfile`
 
+```
+FROM centos:7
+
+RUN yum install httpd
+
+CMD apachectl -DFOREGROUND
+```
+
+```
+docker build -t centos_apache:v0 .
+```
+
+```
+docker run -d -p 2020:80 --name=centos_apache centos_apache:v0
+```
+
+`localhost:2020`
 
