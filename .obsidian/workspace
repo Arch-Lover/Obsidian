@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
-            "mode": "source",
+            "file": "Linux/Command/ssh/ssh time limit.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
+                "file": "Linux/Command/ssh/ssh time limit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Where are my local images.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Create your first Docker Container-1.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/What is a Official Docker Image.md",
-    "Linux/Command/vim/Search, Find, and Replace.md",
-    "Linux/Command/vim/Inserting, Changing, Replacing, and Joining.md",
-    "Docker/Get started/Part 2 Sample application.md",
-    "Docker/Get started/Part 1- Getting started.md",
-    "Linux/Bash Tutorial/01-Bash Script Structure Part 1 Core Components.md",
-    "Linux/Bash Tutorial/04-Adding scripts to your PATH.md"
+    "Linux/Command/ssh/ssh time limit.md",
+    "Markdown Guide/markdown-cheat-sheet.md",
+    "Markdown Guide/Markdown_Basics.md",
+    "Linux/Command/scp.md",
+    "Linux/Command/vim/!.md",
+    "Linux/Command/userdel.md",
+    "Linux/Command/!.md",
+    "Linux/Command/useradd.md",
+    "Linux/Command/id.md",
+    "Linux/Command/LVM.md"
   ]
 }
