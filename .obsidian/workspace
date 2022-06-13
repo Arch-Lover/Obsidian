@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Golang/Pluralsight The Go Programming Language/02_09-Hello World.md",
+            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Download files from Internet using ADD.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220
+    "width": 349
   },
   "right": {
     "id": "cffba4702356a4a0",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Pluralsight The Go Programming Language/02_09-Hello World.md",
+                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Download files from Internet using ADD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
-    "Golang/Pluralsight The Go Programming Language/02_09-Hello World.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Download files from Internet using ADD.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/The RUN instruction rocks.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/The FROM instruction - Take any image as a base.md",
     "Linux/Command/diff.md",
+    "Golang/Pluralsight The Go Programming Language/02_09-Hello World.md",
     "Linux/Command/groups.md",
     "Linux/Command/ffmpeg.md",
     "Linux/Command/Untitled.md",
     "Linux/Command/sudo.md",
-    "Linux/Command/dd.md",
-    "Linux/Command/ssh/sshfs.md",
-    "Linux/Command/LVM.md",
-    "Linux/Command/man.md"
+    "Linux/Command/dd.md"
   ]
 }
