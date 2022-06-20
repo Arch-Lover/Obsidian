@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Command/kill.md",
+            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/6. Want to build like a pro Use the ENV instruction.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command/kill.md",
+                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/6. Want to build like a pro Use the ENV instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
-    "Linux/Command/kill.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/6. Want to build like a pro Use the ENV instruction.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Download files from Internet using ADD.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/The RUN instruction rocks.md",
+    "Linux/Command/kill.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/The FROM instruction - Take any image as a base.md",
     "Linux/Command/diff.md",
     "Golang/Pluralsight The Go Programming Language/02_09-Hello World.md",
     "Linux/Command/groups.md",
     "Linux/Command/ffmpeg.md",
-    "Linux/Command/Untitled.md",
-    "Linux/Command/sudo.md"
+    "Linux/Command/Untitled.md"
   ]
 }
