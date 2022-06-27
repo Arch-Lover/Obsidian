@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Make your images flexible! Use ARGs in the build process.md",
+            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Removing dangling images.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Make your images flexible! Use ARGs in the build process.md",
+                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Removing dangling images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,25 +96,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Removing dangling images.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/docker ps.md",
+    "Linux/Command/openldap.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Dockerignore - Start ignoring the things you don't need!.md",
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Understand the output from the CMD.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Make your images flexible! Use ARGs in the build process.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Quick Tip Browse the content of an image by creating a container.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Metadata on the way! Use LABELs to follow the best practices.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Want to build like a pro Use the ENV instruction.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Being organized matters! Understand the WORKDIR instruction.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Download files from Internet using ADD.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/The RUN instruction rocks.md",
-    "Linux/Command/kill.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/The FROM instruction - Take any image as a base.md",
-    "Linux/Command/diff.md"
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Being organized matters! Understand the WORKDIR instruction.md"
   ]
 }
