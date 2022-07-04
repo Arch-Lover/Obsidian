@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Basics for MultiStage Build in Docker.md",
+            "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Remove and Rename Containers.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Basics for MultiStage Build in Docker.md",
+                "file": "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Remove and Rename Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,10 +100,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Remove and Rename Containers.md",
+    "Linux/Command/tar.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Basics for MultiStage Build in Docker.md",
     "Linux/Command/dd.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Removing dangling images.md",
@@ -111,8 +114,6 @@
     "Linux/Command/openldap.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Dockerignore - Start ignoring the things you don't need!.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Understand the output from the CMD.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Make your images flexible! Use ARGs in the build process.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Quick Tip Browse the content of an image by creating a container.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Metadata on the way! Use LABELs to follow the best practices.md"
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Make your images flexible! Use ARGs in the build process.md"
   ]
 }
