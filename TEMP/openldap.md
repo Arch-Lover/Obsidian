@@ -319,3 +319,73 @@ Enter LDAP Password:  
 adding new entry "uid=fred,ou=People,dc=example,dc=com"
 
 ```
+
+```bash
+[root@server2 ~]# echo "10.10.10.101 server1.example.com" >> /etc/hosts
+
+[root@server2 ~]# ping server1.example.com  
+PING server1.example.com (10.10.10.101) 56(84) bytes of data.  
+64 bytes from server1.example.com (10.10.10.101): icmp_seq=1 ttl=64 time=0.733 ms  
+64 bytes from server1.example.com (10.10.10.101): icmp_seq=2 ttl=64 time=0.393 ms  
+64 bytes from server1.example.com (10.10.10.101): icmp_seq=3 ttl=64 time=0.369 ms  
+64 bytes from server1.example.com (10.10.10.101): icmp_seq=4 ttl=64 time=0.400 ms
+
+
+yum install oddjob oddjob-mkhomedir
+
+
+systemctl start oddjobd
+
+
+systemctl enable oddjobd
+
+
+yum install openldap-clients nss-pam-ldapd
+
+
+authconfig --enableldap --ldapserver=server1.example.com --ldapbasedn="dc=example,dc=com" --enablemkhomedir --update
+
+
+
+[root@server2 ~]# grep passwd /etc/nsswitch.conf  
+#passwd:    db files nisplus nis  
+passwd:     files sss ldap
+
+
+[root@server2 ~]# geten  
+getenforce  getent         
+[root@server2 ~]# getent passwd    
+root:x:0:0:root:/root:/bin/bash  
+bin:x:1:1:bin:/bin:/sbin/nologin  
+daemon:x:2:2:daemon:/sbin:/sbin/nologin  
+adm:x:3:4:adm:/var/adm:/sbin/nologin  
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin  
+sync:x:5:0:sync:/sbin:/bin/sync  
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown  
+halt:x:7:0:halt:/sbin:/sbin/halt  
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin  
+operator:x:11:0:operator:/root:/sbin/nologin  
+games:x:12:100:games:/usr/games:/sbin/nologin  
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin  
+nobody:x:99:99:Nobody:/:/sbin/nologin  
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin  
+dbus:x:81:81:System message bus:/:/sbin/nologin  
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin  
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin  
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin  
+chrony:x:998:996::/var/lib/chrony:/sbin/nologin  
+toor:x:1000:1000:Reza Shokri:/home/toor:/bin/bash  
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin  
+nslcd:x:65:55:LDAP Client User:/:/sbin/nologin  
+fred:x:4000:4000:fred bloggs:/home/fred:/bin/bash
+
+
+[root@server2 ~]# su - fred  
+Creating home directory for fred.  
+[fred@server2 ~]$
+
+
+
+
+
+```
