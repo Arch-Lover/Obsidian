@@ -128,7 +128,6 @@ slappasswd -s Password1 -n > rootpwd
 vim config.ldif
 
 
-dn: olcDatabase={2}hdp,cn=config
 changetype: modify
 replace: olcSuffix
 olcSuffix: dc=example,dc=com
