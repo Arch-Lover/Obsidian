@@ -128,21 +128,21 @@ slappasswd -s Password1 -n > rootpwd
 vim config.ldif
 
 
+dn: olcDatabase={2}hdb,cn=config
 changetype: modify
 replace: olcSuffix
 olcSuffix: dc=example,dc=com
 
-dn: olcDatabase={2}hdp,cn=config
+dn: olcDatabase={2}hdb,cn=config
 changetype: modify
-replace= olcRootDN
+replace: olcRootDN
 olcRootDN: cn=Manager,dc=example,dc=com
 
-
-dn: olcDatabase={2}hdp,cn=config
+dn: olcDatabase={2}hdb,cn=config
 changetype: modify
-replace= olcRootPW
-olcRootPW: <yourpasswd>
-
+replace: olcRootPW
+#Password is Password1 or add your own
+olcRootPW: {SSHA}zPhLTnlzuDlz+L+pZBrb7fCGD7kZd6QG
 
 dn: cn=config
 changetype: modify
@@ -152,7 +152,8 @@ olcLogLevel: 0
 dn: olcDatabase={1}monitor,cn=config
 changetype: modify
 replace: olcAccess
-olcAccess: {0}to * by dn.base"gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" read by dn.base="cn=Manager,dc=example,dc=com" read by * none
+olcAccess: {0}to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" read by dn.base="cn=Manager,dc=example,dc=com" read by * none
+
 
 
 ---
