@@ -234,5 +234,88 @@ result: 0 Success
 # numEntries: 2
 
 
+---
+
+
+vim group.ldif
+
+dn: cn=ldapusers,ou=group,dc=example,dc=com
+objectClass: posixGroup
+cn: ldapusers
+gidNumber: 4000
+
+
+ldapadd -x -W -D "cn=Manager,dc=example,dc=com" -f group.ldif
+
+
+
+
+---
+cd /usr/share/migrationtools/
+
+vim migrate_common.ph
+
+$DEFAULT_MAIL_DOMAIN = "example.com";
+
+
+$DEFAULT_BASE = "dc=example,dc=com";
+
+
+cd
+---
+
+grep toor /etc/passwd
+
+grep toor /etc/passwd > passwd
+
+
+/usr/share/migrationtools/migrate_passwd.pl passwd user.ldif
+
+---
+vim user.ldif
+
+
+dn: uid=toor,ou=People,dc=example,dc=com  
+uid: toor  
+cn: Reza Shokri  
+objectClass: account  
+objectClass: posixAccount  
+objectClass: top  
+objectClass: shadowAccount  
+userPassword: {crypt}$6$DWDMQPVEpcQGe0es$JbWU1BVQ7xs9baznsNsku5tuH67TIffknD7a8/XUJDESxfmyg6Fmc/KNNDCOYFQneJH9Bln6n7Ntt6U4GWPaE.  
+shadowMin: 0  
+shadowMax: 99999  
+shadowWarning: 7  
+loginShell: /bin/bash  
+uidNumber: 1000  
+gidNumber: 1000  
+homeDirectory: /home/toor  
+gecos: Reza Shokri
+
+	|
+	|
+
+dn: uid=fred,ou=People,dc=example,dc=com  
+uid: fred  
+cn: fred  
+objectClass: account  
+objectClass: posixAccount  
+objectClass: top  
+objectClass: shadowAccount  
+userPassword: {crypt}$6$DWDMQPVEpcQGe0es$JbWU1BVQ7xs9baznsNsku5tuH67TIffknD7a8/XUJDESxfmyg6Fmc/KNNDCOYFQneJH9Bln6n7Ntt6U4GWPaE.  
+shadowMin: 0  
+shadowMax: 99999  
+shadowWarning: 7  
+loginShell: /bin/bash  
+uidNumber: 4000  
+gidNumber: 4000  
+homeDirectory: /home/fred  
+gecos: fred bloggs
+
+---
+
+[root@server1 ~]# ldapadd -x -W -D "cn=Manager,dc=example,dc=com" -f user.ldif    
+Enter LDAP Password:    
+adding new entry "uid=fred,ou=People,dc=example,dc=com"
 
 ```
