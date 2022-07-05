@@ -154,13 +154,84 @@ replace: olcAccess
 olcAccess: {0}to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" read by dn.base="cn=Manager,dc=example,dc=com" read by * none
 
 
-
+[root@server1 ~]# ldapmodify -Y EXTERNAL -H ldapi:/// -f config.ldif    
+SASL/EXTERNAL authentication started  
+SASL username: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth  
+SASL SSF: 0  
+modifying entry "olcDatabase={2}hdb,cn=config"  
+  
+modifying entry "olcDatabase={2}hdb,cn=config"  
+  
+modifying entry "olcDatabase={2}hdb,cn=config"  
+  
+modifying entry "cn=config"  
+  
+modifying entry "olcDatabase={1}monitor,cn=config"
 ---
 
 
 
 
+[root@server1 ~]# vim structure.ldif
 
+dn: dc=example,dc=com
+dc: example
+objectClass: top
+objectClass: domain
+
+dn: ou=people,dc=example,dc=com
+ou: people
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=group,dc=example,dc=com
+ou: group
+objectClass: top
+objectClass: organizationalUnit
+
+
+[root@server1 ~]# ldapadd -x -W -D "cn=Manager,dc=example,dc=com" -f structure.ldif    
+Enter LDAP Password:    
+ldap_bind: Invalid credentials (49)  
+[root@server1 ~]# ldapadd -x -W -D "cn=Manager,dc=example,dc=com" -f structure.ldif    
+Enter LDAP Password:    
+adding new entry "dc=example,dc=com"  
+  
+adding new entry "ou=people,dc=example,dc=com"  
+  
+adding new entry "ou=group,dc=example,dc=com"
+
+
+
+
+[root@server1 ~]# ldapsearch -x -W -D "cn=Manager,dc=example,dc=com" -b "dc=example,dc=com" -s sub "(objectclass=organizationalUnit)"  
+Enter LDAP Password:    
+# extended LDIF  
+#  
+# LDAPv3  
+# base <dc=example,dc=com> with scope subtree  
+# filter: (objectclass=organizationalUnit)  
+# requesting: ALL  
+#  
+  
+# people, example.com  
+dn: ou=people,dc=example,dc=com  
+ou: people  
+objectClass: top  
+objectClass: organizationalUnit  
+  
+# group, example.com  
+dn: ou=group,dc=example,dc=com  
+ou: group  
+objectClass: top  
+objectClass: organizationalUnit  
+  
+# search result  
+search: 2  
+result: 0 Success  
+  
+# numResponses: 3  
+# numEntries: 2
 
 
 
