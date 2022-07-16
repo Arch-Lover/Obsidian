@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TEMP/openldap.md",
+            "file": "Linux/Debian/Debian Network.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TEMP/openldap.md",
+                "file": "Linux/Debian/Debian Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -105,8 +106,8 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
-    "README.md",
     "TEMP/openldap.md",
+    "README.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Remove and Rename Containers.md",
     "Linux/Command/tar.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Basics for MultiStage Build in Docker.md",
