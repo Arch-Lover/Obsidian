@@ -389,3 +389,19 @@ Creating home directory for fred.
 
 
 ```
+
+# Debian
+
+```bash
+
+sudo hostnamectl set-hostname server1.example.com
+
+echo "10.10.10.101 server1.example.com" >> /etc/hosts
+
+sudo apt -y install slapd ldap-utils
+
+sudo slapcat
+
+https://directory.apache.org/
+
+```

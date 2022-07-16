@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "TEMP/openldap.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -105,6 +105,7 @@
   },
   "active": "24ea61a479497413",
   "lastOpenFiles": [
+    "README.md",
     "TEMP/openldap.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Remove and Rename Containers.md",
     "Linux/Command/tar.md",
@@ -113,7 +114,6 @@
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Removing dangling images.md",
     "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/docker ps.md",
     "Linux/Command/openldap.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Dockerignore - Start ignoring the things you don't need!.md",
-    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Understand the output from the CMD.md"
+    "Docker/Docker, From Zero To Hero Become a DevOps Docker Master/Dockerignore - Start ignoring the things you don't need!.md"
   ]
 }
