@@ -1,10 +1,6 @@
 {
-  "legacyEditor": false,
-  "livePreview": true,
+  "fileSortOrder": "alphabetical",
   "promptDelete": false,
-  "fileSortOrder": "byCreatedTimeReverse",
-  "rightToLeft": false,
-  "communityThemeSortOrder": "download",
-  "spellcheck": true,
-  "defaultViewMode": "preview"
+  "attachmentFolderPath": "attachment",
+  "alwaysUpdateLinks": true
 }

@@ -1,7 +1,8 @@
 [
-  "obsidian-languagetool-plugin",
-  "obsidian-git",
+  "table-editor-obsidian",
   "calendar",
-  "cm-editor-syntax-highlight-obsidian",
-  "table-editor-obsidian"
+  "sliding-panes-obsidian",
+  "obsidian-git",
+  "obsidian-mind-map",
+  "obsidian-emoji-toolbar"
 ]
