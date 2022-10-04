@@ -1,5 +1,5 @@
 tail Logs in Real Time
 
 ```bash
-tail -f 
+tail -f /var/log/file.log
 ```
