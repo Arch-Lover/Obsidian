@@ -96,3 +96,15 @@ toor@gnu:~$ grep -f search_strings.txt -e 'twice' programming_quotes.txt
 ```bash
 toor@gnu:~$ grep -l 'are' programming_quotes.txt search_strings.txt
 ```
+
+---
+
+**Match whole word or line**
+
+```bash
+toor@gnu:~$ printf 'par value\nheir apparent\n' | grep -w 'par'
+par value
+```
+
+---
+
