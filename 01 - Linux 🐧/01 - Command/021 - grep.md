@@ -108,3 +108,78 @@ par value
 
 ---
 
+**Line Anchors**
+
+There are two line anchors:
+• ˆ metacharacter restricts the matching to start of line
+• $ metacharacter restricts the matching to end of line
+
+```bash
+toor@gnu:~$ # lines starting with 'pa'
+toor@gnu:~$ printf 'spared no one\npar\nspar\ndare' | grep '^pa'
+par
+```
+```bash
+toor@gnu:~$ # lines ending with 'ar'
+toor@gnu:~$ printf 'spared no one\npar\nspar\ndare' | grep 'ar$'
+par
+spar
+```
+
+```bash
+toor@gnu:~$ # lines containing only 'par'
+toor@gnu:~$ printf 'spared no one\npar\nspar\ndare' | grep '^par$'
+par
+```
+```bash
+toor@gnu:~$ printf 'spared no one\npar\nspar\ndare' | grep -x 'par'
+par
+```
+---
+
+**Word Anchors**
+
+```bash
+toor@gnu:~$ cat word_anchors.txt
+sub par
+spar
+apparent effort
+two spare computers
+cart part tart mart
+```
+
+```bash
+toor@gnu:~$ # match words starting with 'par'
+toor@gnu:~$ grep '\bpar' word_anchors.txt
+sub par
+cart part tart mart
+```
+
+```bash
+toor@gnu:~$ # match words ending with 'par'
+toor@gnu:~$ grep 'par\b' word_anchors.txt
+sub par
+spar
+```
+---
+
+**Alternation**
+
+```bash
+toor@gnu:~$ # match either 'cat' or 'dog'
+toor@gnu:~$ printf 'I like cats\nI like parrots\nI like dogs' | grep 'cat\|dog'
+I like cats
+I like dogs
+```
+
+---
+
+**Customizing separators**
+
+
+```bash
+toor@gnu:~$ grep -A0 --group-separator='*-----------*-----------*' 'toor@gnu.com' /var/log/mail.log
+```
+---
+
+
