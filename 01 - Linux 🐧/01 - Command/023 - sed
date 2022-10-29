@@ -1,0 +1,74 @@
+**Editing standard input**
+
+```bash
+toor@gnu:~$ # sample command output for stream editing
+toor@gnu:~$ printf '1,2,3,4\na,b,c,d\n'
+1,2,3,4
+a,b,c,d
+toor@gnu:~$ # for each input line, change only the first
+',' to '-'
+toor@gnu:~$ printf '1,2,3,4\na,b,c,d\n' | sed 's/,/-/'
+1-2,3,4
+a-b,c,d
+toor@gnu:~$ # change all matches by adding the 'g' flag
+toor@gnu:~$ printf '1,2,3,4\na,b,c,d\n' | sed 's/,/-/g'
+1-2-3-4
+a-b-c-d
+```
+
+---
+
+**In-place file editing With backup**
+
+```bash
+toor@gnu:~$ cat colors.txt
+deep blue
+light orange
+blue delight
+toor@gnu:~$ # no output on terminal as -i option is used
+toor@gnu:~$ # space is NOT allowed between -i and
+extension
+toor@gnu:~$ sed -i.bkp 's/blue/green/' colors.txt
+toor@gnu:~$ # output from sed is written back to
+'colors.txt'
+```
+
+**In-place file editing Without backup**
+
+```bash
+toor@gnu:~$ cat fruits.txt
+banana
+papaya
+mango
+toor@gnu:~$ sed -i 's/an/AN/g' fruits.txt
+toor@gnu:~$ cat fruits.txt
+bANANa
+papaya
+mANgo
+```
+
+---
+
+**Multiple files**
+
+```bash
+toor@gnu:~$ cat f1.txt
+have a nice day
+bad morning
+what a pleasant evening
+toor@gnu:~$ cat f2.txt
+worse than ever
+too bad
+toor@gnu:~$ sed -i.bkp 's/bad/good/' f1.txt f2.txt
+toor@gnu:~$ ls f?.*
+f1.txt f1.txt.bkp f2.txt f2.txt.bkp
+toor@gnu:~$ cat f1.txt
+have a nice day
+good morning
+what a pleasant evening
+toor@gnu:~$ cat f2.txt
+worse than ever
+too good
+```
+---
+

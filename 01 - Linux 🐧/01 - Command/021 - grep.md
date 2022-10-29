@@ -222,6 +222,7 @@ toor@gnu:~$ # exclude all filenames ending with 'en' or '.txt'
 $ printf '*en\n*.txt' | grep -Rl --exclude-from=- 'in'
 scripts/pi.py
 ```
+---
 
 **Using find command**
 
