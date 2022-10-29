@@ -183,3 +183,61 @@ toor@gnu:~$ grep -A0 --group-separator='*-----------*-----------*' 'toor@gnu.com
 ---
 
 
+**Customize search path**
+
+
+```bash
+toor@gnu:~$ # without customizing
+toor@gnu:~$ grep -Rl 'in'
+.hidden
+nested_group.txt
+scripts/pi.py
+context_matching/context.txt
+```
+
+```bash
+toor@gnu:~$ # excluding 'scripts' directory and all hidden files
+$ grep -Rl --exclude-dir='scripts' --exclude='.*' 'in'
+nested_group.txt
+context_matching/context.txt
+```
+
+```bash
+toor@gnu:~$ # allow only filenames ending with '.txt' (will match hidden files too)
+$ grep -Rl --include='*.txt' 'in'
+nested_group.txt
+context_matching/context.txt
+```
+
+```bash
+toor@gnu:~$ # allow only filenames ending with '.txt' or '.py'
+$ grep -Rl --include='*.txt' --include='*.py' 'in'
+nested_group.txt
+scripts/pi.py
+context_matching/context.txt
+```
+
+```bash
+toor@gnu:~$ # exclude all filenames ending with 'en' or '.txt'
+$ printf '*en\n*.txt' | grep -Rl --exclude-from=- 'in'
+scripts/pi.py
+```
+
+**Using find command**
+
+```bash
+toor@gnu:~$ # files (including hidden ones) less than 50 bytes
+$ # '-type f' to match only files (not directories) and '-L' to follow links
+$ find -L -type f -size -50c
+./scripts/.key
+./scripts/decode.sh
+./scripts/pi.py
+./patterns.txt
+```
+
+```bash
+toor@gnu:~$ # apply 'grep' command to matched files
+$ find -L -type f -size -50c -exec grep 'e$' {} +
+./patterns.txt:hide
+./patterns.txt:obscure
+```
