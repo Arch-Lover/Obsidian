@@ -72,3 +72,25 @@ too good
 ```
 ---
 
+**Place backups in different directory**
+
+```bash
+toor@gnu:~$ mkdir backups
+toor@gnu:~$ sed -i'backups/*' 's/good/nice/' f1.txt
+f2.txt
+toor@gnu:~$ ls backups/
+f1.txt f2.txt
+```
+
+---
+
+**Conditional execution**
+```bash
+toor@gnu:~$ printf '1,2,3,4\na,b,c,d\n'
+1,2,3,4
+a,b,c,d
+
+toor@gnu:~$ printf '1,2,3,4\na,b,c,d\n' | sed '/2/s/,/-/g'
+1-2-3-4
+a,b,c,d
+```
