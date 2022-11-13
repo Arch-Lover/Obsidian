@@ -1,0 +1,15 @@
+**How to Create Account on Zimbra using zmprov Tool**
+
+```bash
+toor@gnu:~$ su - zimbra
+
+
+toor@gnu:~$ zmprov ca demo@zimbra.local "" displayName "Demo Account"
+eb0eb381-4018-49d0-92d5-153291e6e18b
+
+
+toor@gnu:~$ zmprov sp demo@zimbra.local password
+```
+
+---
+
