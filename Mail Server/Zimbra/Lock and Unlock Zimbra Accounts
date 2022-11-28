@@ -1,0 +1,9 @@
+**Lock and Unlock Zimbra Accounts**
+
+```bash
+toor@gnu:~$ zmprov ma userid@domain.com  zimbraAccountStatus lock
+
+toor@gnu:~$ zmprov ga userid@domain.com
+```
+
+AccountStatus must be one of: active,maintenance,locked,closed,lockout,pending,failedLogin

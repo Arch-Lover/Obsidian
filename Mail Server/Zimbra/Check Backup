@@ -3,5 +3,5 @@ crontab -l
 ```
 
 ```bash
-cat /opt/chmail/script/backup.sh
+cat /opt/zimbra/script/backup.sh
 ```
