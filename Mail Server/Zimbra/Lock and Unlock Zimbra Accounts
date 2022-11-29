@@ -1,7 +1,7 @@
 **Lock and Unlock Zimbra Accounts**
 
 ```bash
-toor@gnu:~$ zmprov ma userid@domain.com  zimbraAccountStatus lock
+toor@gnu:~$ zmprov ma userid@domain.com  zimbraAccountStatus locked
 
 toor@gnu:~$ zmprov ga userid@domain.com
 ```
